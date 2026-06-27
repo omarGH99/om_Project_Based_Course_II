@@ -1,0 +1,27 @@
+# Core
+torch>=2.0
+transformers>=4.40
+datasets>=2.19
+tokenizers>=0.19
+accelerate>=0.30
+sentencepiece>=0.2
+
+# Baseline + evaluation
+symspellpy>=6.7
+python-Levenshtein>=0.25
+
+# Data handling
+pandas>=2.0
+numpy>=1.24
+
+# Normalization / Kurdish NLP
+klpt>=0.1.6 ; python_version < "3.13"
+
+# App
+streamlit>=1.34
+
+# Language model (autocomplete) — optional
+# https://github.com/kpu/kenlm  (install separately if needed)
+beautifulsoup4>=4.12
+pypdf>=4.0
+requests>=2.31

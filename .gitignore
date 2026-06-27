@@ -1,0 +1,4 @@
+﻿badini_gec/models/
+*.safetensors
+__pycache__/
+.venv/
